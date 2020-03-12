@@ -99,8 +99,8 @@ difference(){
         cube([led_x_inner,wand_staerke,led_y_inner],false);
     }
     
-    Kabel_Loch(20,y_all/2-wand_staerke/2);
-    Kabel_Loch(60,y_all/2-wand_staerke/2);
+    Kabel_Loch(7,y_all/2-wand_staerke/2);
+    Kabel_Loch(65,y_all/2-wand_staerke/2);
 }
 
 /*  Um das Haus auch im Dachgeschoss, bei einem Satteldach in Raeume zu unterteilen benoetigen wir natuerlich  nicht nur gerade Waende, sondern auch Waende, welche oben abgeschraegt sind. Dazu habe ich mir mehrere Module erstellt, welche ueber den Aufruf bereits die Information bekommen, wo Sie sich befinden, wie breit und wie hoch Sie sind und ob Sie Oeffnungen fuer LEDs, Halterung fuer LEDs und fuer Kabel haben.
